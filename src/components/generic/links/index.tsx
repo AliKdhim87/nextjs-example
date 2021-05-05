@@ -13,9 +13,9 @@ const Links: React.FC<Props> = ({ items, ...props }: Props) => {
   return (
     <ul className={styles.links} {...props}>
       {items.map(({ name, path }, index) => (
-        <Link href={path} key={index}>
-          {name}
-        </Link>
+        <li className={styles.li} key={index}>
+          <Link href={path}>{name}</Link>
+        </li>
       ))}
     </ul>
   )
