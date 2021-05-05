@@ -1,0 +1,9 @@
+.next
+package-lock.json
+package.json
+next-env.d.ts
+.vscode/settings.json
+tsconfig.json
+README.md
+.prettierrc.js
+.eslintrc.js

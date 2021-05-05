@@ -1,0 +1,6 @@
+.col-3 {
+  flex: 0 0 auto;
+  width: 33.3333%;
+}
+
+/* TODO add more grid classes & media-query */

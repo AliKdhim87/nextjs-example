@@ -1,0 +1,17 @@
+.navigation {
+  display: flex;
+  padding: 10px;
+  background: var(--primary);
+  height: 60px;
+}
+
+.navigation a {
+  margin-right: 20px;
+  font-weight: bold;
+  font-size: large;
+  color: var(--light-gray);
+}
+
+.navLinks {
+  margin-left: auto;
+}
