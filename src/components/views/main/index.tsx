@@ -15,7 +15,7 @@ const Main: React.FC<PostsData> = ({ postsData }: PostsData) => {
     <Container>
       <Row>
         {postsData.map(({ date, slug, title }, index) => (
-          <Grid grid={3} key={index}>
+          <Grid md={3} xs={12} sm={6} key={index}>
             <Link href={`posts/${slug}`}>
               <div key={index} className={card}>
                 <h2>{title}</h2>
