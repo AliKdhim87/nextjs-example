@@ -1,0 +1,47 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Links component Add array of link objects 1`] = `
+<ul>
+  <li>
+    <a
+      href="/"
+      onClick={[Function]}
+      onMouseEnter={[Function]}
+    >
+      Home
+    </a>
+  </li>
+  <li>
+    <a
+      href="/about"
+      onClick={[Function]}
+      onMouseEnter={[Function]}
+    >
+      About
+    </a>
+  </li>
+</ul>
+`;
+
+exports[`Links component Add array of link objects 2`] = `
+<ul>
+  <li>
+    <a
+      href="/"
+      onClick={[Function]}
+      onMouseEnter={[Function]}
+    >
+      Home
+    </a>
+  </li>
+  <li>
+    <a
+      href="/about"
+      onClick={[Function]}
+      onMouseEnter={[Function]}
+    >
+      About
+    </a>
+  </li>
+</ul>
+`;
