@@ -1,6 +1,23 @@
-.col-3 {
-  flex: 0 0 auto;
-  width: 33.3333%;
+/* TODO add more grid classes & media-query */
+
+/* x-small size */
+@media (max-width: 480px) {
+  .col-xs-12 {
+    flex: 0 0 auto;
+    width: 100%;
+  }
 }
 
-/* TODO add more grid classes & media-query */
+@media (min-width: 769px) {
+  .col-md-3 {
+    flex: 0 0 auto;
+    width: 33.3333%;
+  }
+}
+
+@media (min-width: 481px) {
+  .col-sm-6 {
+    flex: 0 0 auto;
+    width: 50%;
+  }
+}
